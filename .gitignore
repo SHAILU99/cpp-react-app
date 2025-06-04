@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+.env
+.next/
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Docker
+*.local
+docker-compose.override.yml
+
+# Logs
+logs
+*.pid
+*.seed
+
+# npm / yarn
+package-lock.json
+yarn.lock
+
+# C++
+*.o
+*.out
+*.exe
+cmake-build-*/
+
+# General
+*.swp
+*.swo
